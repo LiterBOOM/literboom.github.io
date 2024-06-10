@@ -514,21 +514,20 @@ footer {
 
 /* -----------------------------------------------8--------------------------------------------------------------- */
 
- .iframe-container {
-            width: 100%;
-            height: 150vh; /* Установите высоту, подходящую для вашего макета */
-            border: 2px solid #ffffff; /* Белая рамка */
-            border-radius: 10px; /* Скругленные углы */
-            overflow: hidden;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+.iframe-container {
+    width: 800px; /* Фиксированная ширина контейнера */
+    height: 600px; /* Фиксированная высота контейнера */
+    border: 2px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
 
 .presentation-container {
     display: flex;
