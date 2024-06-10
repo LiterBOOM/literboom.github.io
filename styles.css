@@ -358,7 +358,12 @@ footer {
 /* --------------------------------------------5------------------------------------------------------------------ */
 
 
-
+@media (max-width: 768px) {
+    .bio-page {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
 
 .writer {
     text-align: center;
@@ -514,21 +519,19 @@ footer {
 
 /* -----------------------------------------------8--------------------------------------------------------------- */
 
- .iframe-container {
-            width: 100%;
-            height: 80vh; /* Установите высоту, подходящую для вашего макета */
-            border: 2px solid #ffffff; /* Белая рамка */
-            border-radius: 10px; /* Скругленные углы */
-            overflow: hidden;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+.iframe-container {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ffffff; /* Белая рамка */
+    border-radius: 10px; /* Скругленные углы */
+    overflow: hidden;
+}
 
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
 
 .presentation-container {
     display: flex;
