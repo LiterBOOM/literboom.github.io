@@ -521,7 +521,7 @@ footer {
 
  .iframe-container {
             width: 100%;
-            height: 80vh; /* Установите высоту, подходящую для вашего макета */
+            height: 200vh; /* Установите высоту, подходящую для вашего макета */
             border: 2px solid #ffffff; /* Белая рамка */
             border-radius: 10px; /* Скругленные углы */
             overflow: hidden;
